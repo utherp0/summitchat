@@ -1,2 +1,2 @@
-# summitchat
-Chatbot training material for Summit Connect 2024
+# gpttrain
+Training data for GPT examples
