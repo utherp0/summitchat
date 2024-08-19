@@ -15,7 +15,7 @@ seed_examples:
   question: Can I buy things from the store?
 task_description: 'Basic training set for RH Summit Connect London Store Competition'
 document:
-  repo: https://github.com/utherp0/gpttrain
-  commit: e1dcfc6
+  repo: https://github.com/utherp0/summitchat
+  commit: f7575ae
   patterns:
     - additional_text.md
