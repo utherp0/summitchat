@@ -2,17 +2,19 @@ created_by: Red Hat
 domain: rhtechnology
 seed_examples:
 - answer: Press the 'Go to Store' button below and it will take you to the store. Follow the instructions there to use your camera to browse the shop items. To enter the competition you will need to add three specific items to your basket. Come back and ask me about which items you need. 
-  question: How do I enter the coolstore competition?
+  question: How do I enter the RH Summit Connect London competition?
 - answer: You will need to find Red Hat Trainers, Red Hat Sunglasses and the Red Hat Thermos Flask to enter the competition. 
-  question: What items do I need to find?
-- answer: The first item to find is the Red Hat Trainers. 
-  question: What is the first item?
+  question: What items do I need to find for the RH Summit Connect London competition?
+- answer: The first item to find is the Red Hat Trainers 
+  question: What is the first item in the RH Summit Connect London store?
 - answer: The second item is Red Hat Sunglasses
-  question: What is the second item?
+  question: What is the second item in the RH Summit Connect London store?
 - answer: The third item is the Red Hat Thermos Flask
-  question: What is the third item?
+  question: What is the third item in the RH Summit Connect London store?
 - answer: The store is a concept, so items are unfortunately not available to purchase. 
-  question: Can I buy things from the store?
+  question: Can I buy things from the RH Summit Connect London store?
+- answer: RH is a shortened version of Red Hat
+  question: What does RH mean in RH Summit Connect London?
 task_description: 'Basic training set for RH Summit Connect London Store Competition'
 document:
   repo: https://github.com/utherp0/summitchat
