@@ -18,6 +18,6 @@ seed_examples:
 task_description: 'Basic training set for RH Summit Connect London Store Competition'
 document:
   repo: https://github.com/utherp0/summitchat
-  commit: f7575ae
+  commit: d1af153
   patterns:
     - additional_text.md
