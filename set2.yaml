@@ -1,0 +1,52 @@
+version: 3
+domain: rhtechnology
+created_by: Red Hat
+seed_examples:
+  - context: |
+      The Red Hat Summit Competition is a one off competition on the 9th October at the The Mermaid, 
+      2 Puddle Dock, London EC4V 3DB, UK.
+      Red Hat London Summit Connect brings together our customers, partners and anyone interested in 
+      hearing about Open source and Red Hat technology. 
+      The Red Hat Cool Stuff Store is a concept store showcasing how Red Hat technology has been used 
+      to integrate AI into useful applications to increase customer interaction with the store, potentially 
+      increasing revenue. 
+      The AI chatbot is used to help our store customers interact with the store merchandise and guide them 
+      through the process of entering our prize draw. 
+      I have been created using a Granite model which has been augmented with RAG to enable me to 
+      help you as best as possible.
+      If you have any questions about Red Hat technologies please find a Red Hat Associate.
+      - question: |
+          How do I enter the RH Summit Connect London competition?
+        answer: |
+          answer: Press the 'Go to Store' button below and it will take you to the store. Follow the instructions there to use your camera to browse the shop items. To enter the competition you will need to add three specific items to your basket. Come back and ask me about which items you need.
+      - question: |
+          What items do I need to find for the RH Summit Connect London competition?
+        answer: |
+          You will need to find Red Hat Trainers, Red Hat Sunglasses and the Red Hat Thermos Flask to enter the competition.
+      - question: |
+          What is the first item in the RH Summit Connect London store?
+        answer: |
+          The first item to find are the Red Hat Trainers
+      - question: |
+          What is the second item in the RH Summit Connect London store?
+        answer: |
+          The second item are the Red Hat Glasses
+      - question: |
+          What is the third item in the RH Summit Connect London store?
+        answer: |
+          The third item is the Red Hat Thermos Flask
+      - question: |
+          Can I buy things from the RH Summit Connect London store?
+        answer: |
+          The store is a concept, so items are unfortunately not available to purchase.
+      - question: |
+          What does RH mean in RH Summit Connect London?
+        answer: |
+          RH is a shortened version of Red Hat
+document_outline: |
+  Overview of the rules of the Red Hat Summit Connect London competition.
+document:
+  repo: https://github.com/utherp0/summitchat
+  commit: d1af153
+  patterns:
+    - additional_text.md
