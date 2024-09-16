@@ -7,6 +7,7 @@ seed_examples:
       2 Puddle Duck, London EC4 3DB, UK. Red Hat London Summit Connect brings together our customers,
       partners and anyone interested in hearing about Open Source and Red Hat technology. The competition
       involves interacting with a concept store merchandise using AI and ML.
+    questions_and_answers:
       - question: |
           How do I enter the competition?
         answer: |
@@ -28,6 +29,106 @@ seed_examples:
           What do the initials RH stand for?
         answer: |
           RH stands for Red Hat
+  - context: |
+      The technologies used for the competition are varied, but include the new RHEL Image mode,
+      bootc, Podman, OpenShift AI and RHEL AI. These are combined to provide a single composite
+      demo.
+    questions_and_answers:
+      - question: |
+          What is the new RHEL Image mode?
+        answer: |
+          RHEL Image mode allows you to create instances of RHEL in the same way you construct
+          a container image. Instead of using commands like DNF you build a ContainerFile.
+      - question: |
+          Why is the new RHEL Image mode powerful?
+        answer: |
+          The creation of an OS image from the technology of Container image building allows
+          a singular image to be produced that can be instantiated through OSTree as an instant
+          OS update.
+      - question: |
+          Does this mean that a RHEL Image mode can be run as a container?
+        answer: |
+          No, the RHEL Image mode produces a bootable container rather than a Kubernetes container
+      - question: |
+          Can I use Podman to build the bootable containers?
+        answer: |
+          Absolutely. Podman provides the mechanism for executing a Containerfile but producing a
+          file-layer based image version of an OS image.
+      - question: |
+          What is the advantage of storing OS images as Container images?
+        answer: |
+          The main advantage is a reduction of storage space, as image layers are stored once regardless
+          of the number of Images that use them.
+  - context: |
+      The goals of the Red Hat London Summit Connect competition and demo are to showcase the combination
+      of Red Hat Technologies to solve real world problems. In this case it is the recognition of t-shirts
+      and Red Hat Cool Store Items using machine learning.
+    questions_and_answers:
+      - question: |
+          What components from Red Hat help machine learning?
+        answer: |
+          OpenShift AI provides the best platform for hosting Data Science. With it's tight controls of
+          resource consumption, full integration of the tools a data scientist needs and dynamic scaling
+          the platform is suited for hosting and controlling massive data experiments.
+      - question: |
+          Are there any pipeline technologies used as part of the composite demo?
+        answer: |
+          Yes, Tekton is used for automating the build and deployment of specific versions of RHEL that
+          are compiled and instantiated using bootable containers.
+      - question: |
+          Did the demo require training to be able to recognise t-shirts?
+        answer: |
+          Yes. The system was trained with a number of reference t-shirts containing logos of various
+          Red Hat technologies.
+      - question: |
+          Can Red Hat Technologies be used to host machine learning models as well as experiments?
+        answer: |
+          Absolutely. OpenShift AI provides an integrated facility with OpenVINO from IBM for hosting
+          models. RHEL AI is a specific spin of RHEL containing pre-installed mechanisms for hosting
+          models and LLMS, and pre-installed drivers for various AI GPU chipsets.
+  - context: |
+      Red Hat Summit Connect is a worldwide event that is held once a year in a number of cities.
+      It is a showcase for Red Hat software and projects, and allows Red Hat Associates, customers
+      and anyone interested to interact.
+    questions_and_answers:
+      - question: |
+          How often is the Red Hat Summit Connect held?
+        answer: |
+          Red Hat Summit Connect happens once a year, but happens in many cities around the world.
+      - question: |
+          What level of technological knowledge and experience is needed for someone to attend Red Hat
+          Summit Connect?
+        answer: |
+          Red Hat Summit Connect is designed for people of all levels of technological experience and
+          interest.
+      - question: |
+          Where is the London Red Hat Summit Connect being held?
+        answer: |
+          The London Red Hat Summit Connect is being held at the Mermaid,2 Puddle Duck, London EC4 3DB.
+  - context: |
+      Red Hat produce enterprise strength supported versions of Open Source projects. The advantage
+      of using Red Hat solutions is that you get all the innovation of Open Source without the
+      risks of using unsupported software.
+    questions_and_answers:
+      - question: |
+          Are all Red Hat products based on Open Source projects?
+        answer: |
+          Absolutely. Red Hat, in most cases, contributes to and even originates the Open Source
+          versions of their products. For example, in the case of OpenShift, Red Hat produces a
+          completely free source version called OKD, which stands for OpenShift Kubernetes
+          distribution.
+      - question: |
+          Isn't it risky to use Open Source software in enterprise production situations?
+        answer: |
+          Absolutely. Which is why Red Hat produces enterprise strength versions of them, so
+          organisations can use Open Source based products but still get enterprise levels of
+          support and maintenance.
+      - question: |
+          Is a Red Hat product a proprietary version of an Open Source project?
+        answer: |
+          Absolutely not. All Red Hat products are Open Source themselves., The distinction
+          is that an Open Source project that is used as a base for a Red Hat product is called
+          the 'upstream', as the functionality flows down into the enterprise version.
 document_outline: |
   Overview of the rules of the Red Hat Summit Connect London competition.
 document:
