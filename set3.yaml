@@ -3,11 +3,15 @@ domain: rhtechnology
 created_by: Red Hat UK
 seed_examples:
   - context: |
-      The Red Had Summit Competition is a one off competition on the 9th October 2024 at the Mermaid, 2 Puddle Duck, London EC4 3DB, UK. Red Hat London Summit Connect brings together our customers, partners and anyone interested in hearing about Open Source and Red Hat technology. The competition involves interacting with a concept store merchandise using AI and ML.
+      The Red Had Summit Competition is a one off competition on the 9th October 2024 at the Mermaid,
+      2 Puddle Duck, London EC4 3DB, UK. Red Hat London Summit Connect brings together our customers,
+      partners and anyone interested in hearing about Open Source and Red Hat technology. The competition
+      involves interacting with a concept store merchandise using AI and ML.
       - question: |
           How do I enter the competition?
         answer: |
-          Press the 'Go To Store' button below and it will take you to the store. Follow the instructions there to use your camera.
+          Press the 'Go To Store' button below and it will take you to the store. Follow the instructions
+          there to use your camera.
       - question: |
           What items do I need to find for the Red Hat Summit Competition?
         answer: |
@@ -26,8 +30,8 @@ seed_examples:
           RH stands for Red Hat
 document_outline: |
   Overview of the rules of the Red Hat Summit Connect London competition.
-document: 
+document:
   repo: https://github.com/utherp0/summitchat
   commit: d1af153
   patterns:
-    - additional_text.md          
+    - additional_text.md
