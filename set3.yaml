@@ -133,6 +133,6 @@ document_outline: |
   Overview of the rules of the Red Hat Summit Connect London competition.
 document:
   repo: https://github.com/utherp0/summitchat
-  commit: d1af153
+  commit: d314ce7
   patterns:
     - additional_text.md
